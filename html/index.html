@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    .form {
+      text-align: center;
+      padding: 10%;
+    }
+  </style>
+  <body>
+    <div class="form">
+      <h1>Twilio Send SMS</h1>
+      <form action="/myform" method="POST">
+        <label>To:</label><br />
+        <input
+          type="number"
+          name="mnumber"
+          placeholder="Enter Mobile Number"
+        /><br />
+        <label>Message:</label><br />
+        <input
+          type="text"
+          name="msg"
+          placeholder="Enter Your Messages Here..."
+        /><br /><br />
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </body>
+</html>
