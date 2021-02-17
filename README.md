@@ -10,4 +10,4 @@ Then in your code:
 
 var twilio = require('twilio');
 
-[want to know more].....(https://www.twilio.com/docs/libraries/node)
+[want to know more](https://www.twilio.com/docs/libraries/node)
